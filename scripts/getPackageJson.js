@@ -11,8 +11,10 @@ const path = require('path');
 /**
  * Returns package info
  */
-const getPackageJson = function(...args) {
-  const packageJSON = JSON.parse(fs.readFileSync(path.join(__dirname, '../package.json')));
+const getPackageJson = function (...args) {
+  const packageJSON = JSON.parse(
+    fs.readFileSync(path.join(__dirname, '../package.json'))
+  );
   if (!args.length) {
     return packageJSON;
   }

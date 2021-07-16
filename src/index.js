@@ -1,12 +1,12 @@
-import "./index.css";
+import './index.css';
 
 class MyLibrary {
   constructor() {
-    console.log("Library constructor loaded");
+    console.log('Library constructor loaded');
   }
 
   myMethod = () => {
-    console.log("Library method fired");
+    console.log('Library method fired');
   };
 }
 
